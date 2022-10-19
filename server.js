@@ -1,4 +1,3 @@
-const { response } = require('express')
 const express = require('express')
 const app = express()
 const cors = require('cors')
@@ -49,7 +48,7 @@ const holidays = {
 
 
 app.get('/', (req, res)=>{
-    res.sendFile(__dirname + '/clientSide/index.html')
+    res.sendFile(__dirname + '/index.html')
 })
 
 app.get('/api/:month', (req, res)=>{
