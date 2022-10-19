@@ -1,15 +1,14 @@
 document.querySelector('button').addEventListener('click', apiRequest)
 
-async function apiRequest (){
+async function apiRequest(){
     const month = document.querySelector('input').value
-    try {
-        const res = await fetch(`https://custom-holiday-api.herokuapp.com/api/${month}`)
-        const data = await res.json()
+    try{
+        const response = await fetch(`https://custom-holiday-api.herokuapp.com/api/j${month}`)
+        const data = await response.json()
 
-        console.log(data.name)
-        document.querySelector('h2'). innerText = data.name
-    }
-    catch (err) {
-        console.log(err)
+        console.log(data)
+        document.querySelector('h2').innerText = data.name
+    }catch(error){
+        console.log(error)
     }
 }

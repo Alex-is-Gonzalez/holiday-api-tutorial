@@ -6,43 +6,43 @@ const PORT = 8000
 app.use(cors())
 const holidays = {
     'january':{
-       'name':['New Year\'s Day', 'Three Kings Day', 'Martin Luther King\'s Birtday',]
+       'name':"'New Year\'s Day', 'Three Kings Day', 'Martin Luther King\'s Birtday'"
     },
     'february':{
-        'name':['Chinese New Year', 'Groundhog\'s day', 'Lincoln\'s Birthday', 'Valentines Day', 'President\'s Day', 'Washingtion\'s Birthday',]
+        'name':"'Chinese New Year', 'Groundhog\'s day', 'Lincoln\'s Birthday', 'Valentines Day', 'President\'s Day', 'Washingtion\'s Birthday'"
     },
     'march':{
-        'name':['Mardi Gras', 'Ash Wednesday', 'International Women\'s Day', 'St.Patrick\'s day', 'Internation Earth Day',]
+        'name':"'Mardi Gras', 'Ash Wednesday', 'International Women\'s Day', 'St.Patrick\'s day', 'Internation Earth Day'"
     },
     'april':{
-        'name':['April Fool\'s Day', 'Ramadan', 'Palm Sunday', 'Good Friday', 'Passover', 'Easter Sunday', 'Patriot\'s Day', 'Earth Day', 'Abor Day'], 
+        'name':"'April Fool\'s Day', 'Ramadan', 'Palm Sunday', 'Good Friday', 'Passover', 'Easter Sunday', 'Patriot\'s Day', 'Earth Day', 'Abor Day'"
     },
     'may':{
-        'name':['National Teacher\'s Day','Starwars Day', 'Cino de Mayo', 'Mother\'s Day', 'Memorial Day']
+        'name':"'National Teacher\'s Day','Starwars Day', 'Cino de Mayo', 'Mother\'s Day', 'Memorial Day'"
     },
     'june':{
-        'name':['D Day', 'Flag Day', 'Juneteenth Day', 'Summer Solstice']
+        'name':"'D Day', 'Flag Day', 'Juneteenth Day', 'Summer Solstice'"
     },
     'july':{
-        'name':['Canada Day', 'Independence Day']
+        'name':"'Canada Day', 'Independence Day'"
     },
     'august':{
-        'name':['No National Holiday in August']
+        'name':"'No National Holiday in August'"
     },
     'september':{
-        'name':['Labor Day', '911 Remembrance', 'Grandparent\'s Day', 'Constitution Day', 'International Peace Day', 'Native American Day', 'Rosh Hashanah']
+        'name':"'Labor Day', '911 Remembrance', 'Grandparent\'s Day', 'Constitution Day', 'International Peace Day', 'Native American Day', 'Rosh Hashanah'"
     },
     'october':{
-        'name':['International Day for the Elderly', 'Yom Kippur', 'National Indigenous People Day', 'Boss\'s Day', 'Halloween']
+        'name':"'International Day for the Elderly', 'Yom Kippur', 'National Indigenous People Day', 'Boss\'s Day', 'Halloween'"
     },
     'November':{
-        'name':['All Saint\'s Day', 'Dia de Los Muertos', 'All Soul\'s Day', 'U.S General Election Day', 'Verteran\'s Day','Thanksgiving Day', 'Advent']
+        'name':"'All Saint\'s Day', 'Dia de Los Muertos', 'All Soul\'s Day', 'U.S General Election Day', 'Verteran\'s Day','Thanksgiving Day', 'Advent'"
     },
     'December':{
-        'name':['Pearl harbor Day', 'Chanukah', 'Winter Solstice', 'Christmas', 'Kwanzaa', 'New Year\'s Eve']
+        'name':"'Pearl harbor Day', 'Chanukah', 'Winter Solstice', 'Christmas', 'Kwanzaa', 'New Year\'s Eve'"
     },
     'unknown': {
-        'name': ['Please search another Month']
+        'name': "'Please search another Month'"
     }
 }
 
