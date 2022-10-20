@@ -1,9 +1,11 @@
+//dependancies need to build our server
 const express = require('express')
 const app = express()
 const cors = require('cors')
 const PORT = 8000
 
 app.use(cors())
+
 const holidays = {
     'january':{
        'name':"'New Year\'s Day', 'Three Kings Day', 'Martin Luther King\'s Birtday'"
@@ -46,7 +48,7 @@ const holidays = {
     }
 }
 
-
+//app is variable name we gave to express while the get method allows us to request something where its a file, route or data.
 app.get('/', (req, res)=>{
     res.sendFile(__dirname + '/index.html')
 })
